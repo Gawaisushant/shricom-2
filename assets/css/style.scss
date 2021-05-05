@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    font-size: 18px;
+    color: #47484b;
+    
+}
+
+
+// genral 
+
+.porpul{
+    color: rgba(40, 73, 218, 0.8) !important;
+    font-weight: bold;
+}
+/*==============================
+ navigation section stats here 
+ =============================*/
+ .navbar{
+    z-index: 11 !important;
+    background-color: transparent !important;
+
+    .navbar-brand{
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .nav-item{
+        min-width: 120px;
+        a{
+            font-size: 1rem;
+            color: #fff !important;
+            font-weight: bold;
+        }
+    }
+
+    .sign-btn{
+        font-size: 1rem;
+        border-radius: 30px;
+        background-color: rgba(255 , 255 , 255 , 0.2);
+        color: #fff;
+    }
+}
+.banner{
+    
+    .gradiant{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        background-image: linear-gradient(98deg, #519cd5 0%, #e3a92c 34%, #f3ab19 41%, #db19ca 92%, #af41c9 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 32%, 0 65%);
+    }
+
+    .col-md-6{
+        z-index: 11111 !important;
+
+        h1{
+            margin-top: 100px;
+            font-size: 4.5rem;
+            line-height: 90px;
+            color: #0b256b;
+            font-weight: bold;
+            font-family: "Segoe UI";
+        }
+
+        p{
+            
+            margin: 20px 0;
+            font-size: 1.2rem;
+            color: rgb(55, 54, 78);
+        }
+
+
+        .start-btn{
+            border-radius: 20px;
+            background-color: #0d0f2f;
+            color: #fff;
+            font-size: 0.87rem;
+
+            &:hover{
+                background-color: #46464e;
+            }
+        }
+        .contact-btn{
+            font-size: 1rem;
+            color: #0d0f2f;
+            font-weight: bold;
+        }
+        .img-fluid{
+            z-index: 1111111111 !important;
+            width: 400px;
+            margin-left: auto !important;
+            display: block;
+        }
+
+    }
+}
+
+
+// trusted-company section starts here 
+
+
+.trusted-company{
+    margin: 100px 0;
+    .col-md-3{
+        img{
+            width: 200px;
+            display: block ;
+            margin:  0 auto;
+            height: auto;
+           
+        }
+    }
+}
+
+
+// unified-paltform section starts here 
+
+.unified-paltform{
+    margin:  40px 0;
+    .col-md-6 , .d-flex{
+        padding: 40px;
+        h3{
+
+            margin: 20px 0;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #1a1d25 ;
+        }
+        p{
+            font-size: 1rem;
+            color: rgb(85, 86, 88) !important;
+            a{
+                color: rgba(36, 72, 233 , 0.8) !important;
+                font-weight: 500;
+            }
+        }
+
+
+        .start-payments{
+            border-radius: 30px;
+            font-size: 0.8rem;
+            color: #fff;
+            background-color: rgb(98, 77, 192);
+            padding: 5px 10px ;
+
+            &:hover{
+                background-color: rgb(34, 32, 70);
+            }
+        }
+ 
+    }
+
+}
+.designed-section{
+    padding-top: 180px;
+    background-image: url("../img/Group\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: -80px;
+    .col-md-6{
+        padding: 40px;
+
+        
+    }
+    .read-docs-btn{
+        border-radius: 30px;
+        background-color: #01c5df;
+        color: rgba(17, 20, 61 , 0.6);
+        font-size: 0.87rem;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    h6{
+        margin-top: 100px;
+        font-weight: 500;
+        color: #01c5df;
+        font-size: 1.1rem;
+    }
+
+    h3{
+        color: #fff;
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+    p{
+        color: rgba(255, 255, 255 , 0.6);
+        font-weight: 500;
+        margin: 20px 0;
+    }
+
+    .mx-auto{
+        margin: 20px 0;
+        padding: 10px;
+        .fa-th-large , .fa-cogs{
+           color: rgb(153, 47, 252);
+           font-size: 2rem;
+           margin: 0 ;
+           padding: 0;
+        }
+
+        h5{
+            color: rgb(255, 255, 255);
+            margin-top: 10px ;
+            font-size: 1rem;
+        }
+
+        p{
+            font-size: 0.87rem;
+        }
+
+        .libaries-btn{
+            color: rgb(32, 212, 212);
+            font-size: 0.87rem;
+        }
+    }
+}
+
+// Why Stripe 
+
+
+.why-stripe{
+  
+    h3{
+        font-size: 2.2rem;
+        color: #0d0f2f;
+        font-weight: bold;
+        margin: 40px 0;
+    }
+    .col-lg-3{
+        padding: 20px;
+
+        .fa-cogs{
+            color: rgb(81, 81, 201);
+            font-size: 1.4rem;
+        }
+
+        h6{
+            font-size: 0.87rem;
+            margin: 10px 0;
+            border-left: solid rgb(79, 79, 224) 1px;
+            padding: 0 10px;
+        }
+
+        p{
+            font-size: 0.85rem
+        }
+    }
+
+
+
+}
+
+.gloable-scale{
+    width: 100%;
+    height: 100%;
+    background-color: #0a1527;
+    color: rgb(185, 181, 181);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 200px;
+    .col-md-4{
+        padding: 10px;  
+    }
+    h4{
+        margin-top: 100px;
+        font-weight: 500;
+        color: #01c5df;
+        font-size: 1.1rem;
+        margin: 20px 0;
+    }
+    h3{
+        font-size: 2rem;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    p{
+        color: rgb(140, 155, 160);
+        font-weight: 500;
+    }
+
+    .col-lg-3{
+        h2{
+            font-size: 1.5rem;
+            color: #fff;
+            border-left: solid rgb(20, 166, 177) 2px;
+            padding: 0 10px;
+        }
+    }
+}

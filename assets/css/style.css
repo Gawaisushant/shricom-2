@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-size: 18px;
+  color: #47484b;
+}
+
+.porpul {
+  color: rgba(40, 73, 218, 0.8) !important;
+  font-weight: bold;
+}
+
+/*==============================
+ navigation section stats here 
+ =============================*/
+.navbar {
+  z-index: 11 !important;
+  background-color: transparent !important;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.navbar .nav-item {
+  min-width: 120px;
+}
+
+.navbar .nav-item a {
+  font-size: 1rem;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.navbar .sign-btn {
+  font-size: 1rem;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.banner .gradiant {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-image: linear-gradient(98deg, #519cd5 0%, #e3a92c 34%, #f3ab19 41%, #db19ca 92%, #af41c9 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 32%, 0 65%);
+          clip-path: polygon(0 0, 100% 0, 100% 32%, 0 65%);
+}
+
+.banner .col-md-6 {
+  z-index: 11111 !important;
+}
+
+.banner .col-md-6 h1 {
+  margin-top: 100px;
+  font-size: 4.5rem;
+  line-height: 90px;
+  color: #0b256b;
+  font-weight: bold;
+  font-family: "Segoe UI";
+}
+
+.banner .col-md-6 p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #37364e;
+}
+
+.banner .col-md-6 .start-btn {
+  border-radius: 20px;
+  background-color: #0d0f2f;
+  color: #fff;
+  font-size: 0.87rem;
+}
+
+.banner .col-md-6 .start-btn:hover {
+  background-color: #46464e;
+}
+
+.banner .col-md-6 .contact-btn {
+  font-size: 1rem;
+  color: #0d0f2f;
+  font-weight: bold;
+}
+
+.banner .col-md-6 .img-fluid {
+  z-index: 1111111111 !important;
+  width: 400px;
+  margin-left: auto !important;
+  display: block;
+}
+
+.trusted-company {
+  margin: 100px 0;
+}
+
+.trusted-company .col-md-3 img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+.unified-paltform {
+  margin: 40px 0;
+}
+
+.unified-paltform .col-md-6, .unified-paltform .d-flex {
+  padding: 40px;
+}
+
+.unified-paltform .col-md-6 h3, .unified-paltform .d-flex h3 {
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a1d25;
+}
+
+.unified-paltform .col-md-6 p, .unified-paltform .d-flex p {
+  font-size: 1rem;
+  color: #555658 !important;
+}
+
+.unified-paltform .col-md-6 p a, .unified-paltform .d-flex p a {
+  color: rgba(36, 72, 233, 0.8) !important;
+  font-weight: 500;
+}
+
+.unified-paltform .col-md-6 .start-payments, .unified-paltform .d-flex .start-payments {
+  border-radius: 30px;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #624dc0;
+  padding: 5px 10px;
+}
+
+.unified-paltform .col-md-6 .start-payments:hover, .unified-paltform .d-flex .start-payments:hover {
+  background-color: #222046;
+}
+
+.designed-section {
+  padding-top: 180px;
+  background-image: url("../img/Group 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: -80px;
+}
+
+.designed-section .col-md-6 {
+  padding: 40px;
+}
+
+.designed-section .read-docs-btn {
+  border-radius: 30px;
+  background-color: #01c5df;
+  color: rgba(17, 20, 61, 0.6);
+  font-size: 0.87rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.designed-section h6 {
+  margin-top: 100px;
+  font-weight: 500;
+  color: #01c5df;
+  font-size: 1.1rem;
+}
+
+.designed-section h3 {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.designed-section p {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.designed-section .mx-auto {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.designed-section .mx-auto .fa-th-large, .designed-section .mx-auto .fa-cogs {
+  color: #992ffc;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.designed-section .mx-auto h5 {
+  color: white;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.designed-section .mx-auto p {
+  font-size: 0.87rem;
+}
+
+.designed-section .mx-auto .libaries-btn {
+  color: #20d4d4;
+  font-size: 0.87rem;
+}
+
+.why-stripe h3 {
+  font-size: 2.2rem;
+  color: #0d0f2f;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.why-stripe .col-lg-3 {
+  padding: 20px;
+}
+
+.why-stripe .col-lg-3 .fa-cogs {
+  color: #5151c9;
+  font-size: 1.4rem;
+}
+
+.why-stripe .col-lg-3 h6 {
+  font-size: 0.87rem;
+  margin: 10px 0;
+  border-left: solid #4f4fe0 1px;
+  padding: 0 10px;
+}
+
+.why-stripe .col-lg-3 p {
+  font-size: 0.85rem;
+}
+
+.gloable-scale {
+  width: 100%;
+  height: 100%;
+  background-color: #0a1527;
+  color: #b9b5b5;
+  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  padding-top: 200px;
+}
+
+.gloable-scale .col-md-4 {
+  padding: 10px;
+}
+
+.gloable-scale h4 {
+  margin-top: 100px;
+  font-weight: 500;
+  color: #01c5df;
+  font-size: 1.1rem;
+  margin: 20px 0;
+}
+
+.gloable-scale h3 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.gloable-scale p {
+  color: #8c9ba0;
+  font-weight: 500;
+}
+
+.gloable-scale .col-lg-3 h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  border-left: solid #14a6b1 2px;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=style.css.map */
